@@ -2,11 +2,11 @@
   <main>
     <h1>About page</h1>
 
-    <div class="pd-top-10">
+    <div>
       Стартовый проект на Node JS
     </div>
 
-    <NuxtLink to="/">
+    <NuxtLink to="/" class="pd-10">
       About (internal link that belongs to the Nuxt App)
     </NuxtLink>
     <p><a href="https://nuxtjs.org">External Link to another page</a></p>
@@ -15,6 +15,10 @@
 
 <style scoped>
   .pd-top-10 {
-  padding-top: 10px;
+    padding-top: 10px;
+  }
+
+  .pd-10 {
+    padding: 10px;
   }
 </style>
