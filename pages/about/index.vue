@@ -2,14 +2,17 @@
   <main>
     <h1>About page</h1>
 
-    <div>
+    <div class="pd-top-10 pd-bottom-10">
       Стартовый проект на Node JS
     </div>
 
-    <NuxtLink to="/" class="pd-top-10 pd-bottom-10">
-      About (internal link that belongs to the Nuxt App)
-    </NuxtLink>
-    <p><a href="https://nuxtjs.org">External Link to another page</a></p>
+    <div>
+      <NuxtLink to="/" class="pd-top-10 pd-bottom-10">
+        About (internal link that belongs to the Nuxt App)
+      </NuxtLink>
+      <p><a href="https://nuxtjs.org">External Link to another page</a></p>
+    </div>
+
   </main>
 </template>
 
