@@ -2,7 +2,7 @@
   <main>
     <h1>About page</h1>
 
-    <div>
+    <div class="pd-top-10">
       Стартовый проект на Node JS
     </div>
 
@@ -14,5 +14,7 @@
 </template>
 
 <style scoped>
-
+  .pd-top-10 {
+  padding-top: 10px;
+  }
 </style>
