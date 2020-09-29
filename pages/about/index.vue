@@ -6,7 +6,7 @@
       Стартовый проект на Node JS
     </div>
 
-    <NuxtLink to="/" class="pd-10">
+    <NuxtLink to="/" class="pd-top-10 pd-bottom-10">
       About (internal link that belongs to the Nuxt App)
     </NuxtLink>
     <p><a href="https://nuxtjs.org">External Link to another page</a></p>
@@ -18,7 +18,7 @@
     padding-top: 10px;
   }
 
-  .pd-10 {
-    padding: 10px;
+  .pd-bottom-10 {
+    padding-bottom: 10px;
   }
 </style>
