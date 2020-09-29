@@ -14,7 +14,5 @@
 </template>
 
 <style scoped>
-  .pagging-top-10: {
 
-  }
 </style>
