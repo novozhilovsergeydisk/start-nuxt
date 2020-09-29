@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>About page</h1>
-    
+
     <div>
       Стартовый проект на Node JS
     </div>
@@ -12,3 +12,9 @@
     <p><a href="https://nuxtjs.org">External Link to another page</a></p>
   </main>
 </template>
+
+<style scoped>
+  .pagging-top-10: {
+    
+  }
+</style>
