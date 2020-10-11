@@ -1,9 +1,10 @@
-export default {
+module.exports = {
   plugins: ['~plugins/vuetify.js'],
   css: ['~assets/main.css'],
   loading: {
     color: '#456321'
   },
+  modules: ['bootstrap-vue/nuxt'],
   build: {
     /*
      ** You can extend webpack config here
