@@ -4,7 +4,10 @@ module.exports = {
   loading: {
     color: '#456321'
   },
-  modules: ['bootstrap-vue/nuxt'],
+  modules: [
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/axios',
+  ],
   build: {
     /*
      ** You can extend webpack config here
