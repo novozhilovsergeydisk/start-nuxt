@@ -1,7 +1,7 @@
 <template>
   <section>
     <main>
-      <h1>Error 404</h1>
+      <h1>404 | Not found</h1>
 
       <nuxt-link to="/">На главную страницу</nuxt-link>
     </main>
@@ -21,6 +21,6 @@ export default {
   }
 
   h1 {
-    color: red;
+    color: #000000;
   }
 </style>

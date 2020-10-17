@@ -103,9 +103,26 @@ components: {
 }
 </script>
 
-<style scoped>
-  body {
-    color: red;
+<style>
+  /*body {*/
+  /*  color: red;*/
+  /*}*/
+
+  .b-form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
   }
 
 </style>
